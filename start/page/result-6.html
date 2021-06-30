@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Aebong Toyproject">
+    <meta name="keywords" content="find my doggy test">
+    <meta name="descriptions" content="find my doggy test">
+
+    <!-- sns share -->
+    <meta property="og:url" content="https://findmydoggy.netlify.app" />
+    <meta property="og:title" content="find my doggy test" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../img/share.jpg" />
+    <meta property="og:description" content="it is 'FIND MY DOGGY TEST' by SEO YEON" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/dog.ico" />
+    <link rel="apple-touch-icon-precomposed" href="../img/dog.ico" />
+
+    <title>Find my Doggy Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/result.css">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('b71aa6f8450b5b36654dc239042dfad8');
+        Kakao.isInitialized();
+    </script>
+</head>
+
+
+
+<body>
+    <!-- 03. RESULT -->
+    <section id="shareResult" class="mx-auto my-5 py-5 px-3">
+        <h2>당신의 결과는?</h2>
+        <div class="resultname">
+            <p>논리적으로 사고하는 능력이 뛰어나고, 모든 일에 계획적인 당신에게 딱 맞는 반려동물은 [러시안 블루]입니다.</p>
+        </div>
+        <div id="resultImg" class="col-lg-6 col-md-5 col-sm-6 col-12 mx-auto m-5">
+            <img src="../img/image-6.jpg" alt="0" class="img-fluid">
+        </div>
+        <div class="resultDesc">
+            <p>
+                늘씬하면서 다부진 체격에서 넘치는 매력으로 '단모종의 귀족'이라는 별명을 가지고 있는 러시안 블루. 짙은 초록색 눈에 둥그스름한 얼굴이 매력적입니다. 애정이 넘치는 성격이면서도 낯가림을 하는 편이지만, 한번 마음을 열면 변치 않는 신뢰를 보여줍니다.
+            </p>
+        </div>
+        <script type="text/javascript">
+            function moveHome(){
+                location.href="index.html";
+            }
+        </script>
+        <button type="button" class="gohome mt-3 py-2 px-3" onclick="js:moveHome()">나도 참여하기</button>
+
+    </section>
+
+</body>

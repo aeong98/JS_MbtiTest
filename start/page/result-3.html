@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Aebong Toyproject">
+    <meta name="keywords" content="find my doggy test">
+    <meta name="descriptions" content="find my doggy test">
+
+    <!-- sns share -->
+    <meta property="og:url" content="https://findmydoggy.netlify.app" />
+    <meta property="og:title" content="find my doggy test" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="../img/share.jpg" />
+    <meta property="og:description" content="it is 'FIND MY DOGGY TEST' by SEO YEON" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/dog.ico" />
+    <link rel="apple-touch-icon-precomposed" href="../img/dog.ico" />
+
+    <title>Find my Doggy Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/result.css">
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('b71aa6f8450b5b36654dc239042dfad8');
+        Kakao.isInitialized();
+    </script>
+</head>
+
+
+
+<body>
+    <!-- 03. RESULT -->
+    <section id="shareResult" class="mx-auto my-5 py-5 px-3">
+        <h2>당신의 결과는?</h2>
+        <div class="resultname">
+            <p>호기심이 많고, 겉으로는 항상 밝아보이지만 속으로는 걱정이 꽤 많은 당신에게 딱 맞는 강아지는 [비숑]입니다.</p>
+        </div>
+        <div id="resultImg" class="col-lg-6 col-md-5 col-sm-6 col-12 mx-auto m-5">
+            <img src="../img/image-3.jpg" alt="0" class="img-fluid">
+        </div>
+        <div class="resultDesc">
+            <p>
+                솜사탕같은 귀여운 외모의 소유자 비숑은, 말썽을 피우지 않아 어디든 데리고 다닐 수 있는 진정한 반려견입니다. 독립성이 강해 잘 긴장하지도 않고 자주 짖지도 않으며, 처음 보는 사람이나 개를 만나도 사교성이 매우 좋은 편입니다. 
+            </p>
+        </div>
+        <script type="text/javascript">
+            function moveHome(){
+                location.href="index.html";
+            }
+        </script>
+        <button type="button" class="gohome mt-3 py-2 px-3" onclick="js:moveHome()">나도 참여하기</button>
+
+    </section>
+
+</body>
